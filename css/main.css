@@ -3525,7 +3525,7 @@ footer .row {
 #editMe {
     display: none !important;
 }
-#appView .powrMark {
+.powrMark {
     display: none !important;
 }
 .formBuilder {
