@@ -3522,7 +3522,19 @@ footer .row {
     color: #FFFFFF;
 }
 
-
+#editMe {
+    display: none !important;
+}
+#appView .powrMark {
+    display: none !important;
+}
+.formBuilder {
+     border-style:none ! important; 
+     background: none !important; 
+}
+.fitText{
+    font-weight: normal !important;
+}
 /* ------------------------------------------------------------------- 
  * responsive:
  * footer
