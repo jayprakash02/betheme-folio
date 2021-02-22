@@ -1,0 +1,36 @@
+<div class="header">
+  <div class="profile">
+    <div class="title">Jay Prakash</div>
+    <div class="subtitle subtitle-typed">Back-end Developer</div><span class="typed-cursor">|</span>
+  </div> <a href="#" class="menu-btn"><span></span></a>
+  <div class="top-menu top-menu-onepage">
+    <div class="menu-main-menu-container">
+      <ul id="menu-main-menu" class="menu">
+        {% for item in site.data.navigation %}
+        <li data-id="menu-item-107"
+          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home page_item page-item-151 current_page_item current-menu-item">
+          <a href="{{ item.link }}" class="one-page-menu-item">{{ item.name }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="card-started" id="home-card">
+  <div class="profile no-photo">
+    <div class="profile-content">
+      <div class="slide lazyloaded" data-bg="/assets/images/profile.jpg"
+        style="background-image: url(&quot;/assets/images/profile.jpg&quot;);">
+      </div>
+      <div class="title">Jay Prakash</div>
+      <div class="subtitle subtitle-typed">Back-end Developer</div><span class="typed-cursor">|</span>
+      <div class="social">
+        {% for item in site.data.social %}
+        <a target="_blank" href="{{ item.link }}"> <span class="{{ item.icon }}"></span></a>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="lnks"> <a href="#" class="lnk"> <span class="text">Download CV </span> <i
+          class="fas fa-file-download"></i></a></div>
+  </div>
+</div>

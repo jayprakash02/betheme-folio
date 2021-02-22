@@ -1,0 +1,16 @@
+- name: github
+  link: /
+  icon: fab fab fa-github
+- name: dribbble
+  link: /
+  icon: fab fab fa-dribbble
+- name: twitter
+  link: /
+  icon: fab fab fa-twitter
+- name: spotify
+  link: /
+  icon: ffab fab fa-spotify
+- name: stack-overflow
+  link: /
+  icon: fab fab fa-stack-overflow
+  
