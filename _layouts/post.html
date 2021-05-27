@@ -1,14 +1,15 @@
----
-layout: default
----
-<h1>{{ page.title }}</h1>
+<html>
+{% include head.html %}
 
-<p>
-  {{ page.date | date_to_string }}
-  {% assign author = site.authors | where: 'short_name', page.author | first %}
-  {% if author %}
-    - <a href="{{ author.url }}">{{ author.name }}</a>
-  {% endif %}
-</p>
+<body class="home page color-custom style-default layout-full-width nice-scroll-on mobile-tb-left button-stroke no-content-padding header-creative header-open minimalist-header-no sticky-white ab-hide subheader-title-left menu-line-below tr-menu tr-content tr-footer">
+    <div id="Wrapper">
+        <div id="Header_wrapper">
+            <header id="Header"></header>
+        </div>
+       {{ content }}
+       {% include footer.html %}
+    </div>
+    {% include script.html %}
+</body>
 
-{{ content }}
+</html>
