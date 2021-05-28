@@ -31,165 +31,37 @@ layout: default
                     <div class="column one column_portfolio">
                         <div class="portfolio_wrapper isotope_wrapper">
                             <ul class="portfolio_group lm_wrapper isotope masonry-hover col-2">
+                                {% for post in site.posts %}
                                 <li class="portfolio-item isotope-item  has-thumbnail">
                                     <div class="masonry-hover-wrapper">
                                         <div class="hover-desc bg-light">
                                             <div class="desc-inner">
-                                                <h3 class="entry-title" itemprop="headline"><a class="link"
-                                                        href="item1.html">Curabitur viverra enim metus</a></h3>
-                                                <div class="desc-wrappper">
-                                                    Suspendisse eu lectus. Nunc tristique purus. Praesent at orci massa,
-                                                    nonummy consequat ligula eget leo elit arcu, eget odio. Donec.
-                                                </div>
+                                                <h3 class="entry-title" itemprop="headline"><a
+                                                        class="link"
+                                                        href="{{ site.baseurl }}/assets/content/freelancer/item1.html">{{ post.title }}</a></h3>
+                                                <div class="desc-wrappper">{{ post.description }}</div>
                                             </div>
                                             <div class="links-wrappper clearfix">
-                                                <a class="zoom" href="/assets/content/freelancer/images//home_freelancer_portfolio1.jpg"
-                                                    rel="prettyphoto"><i class="icon-search"></i></a><a class="link"
-                                                    href="item1.html"><i class="icon-link"></i></a>
+                                                <a class="zoom"
+                                                    href="{{ site.baseurl }}/assets/content/freelancer/images/home_freelancer_portfolio1.jpg"
+                                                    rel="prettyphoto"><i class="icon-search"></i></a><a
+                                                    class="link"
+                                                    href="{{ post.url }}"><i
+                                                        class="icon-link"></i></a>
                                             </div>
                                         </div>
                                         <div class="image-wrapper scale-with-grid">
-                                            <a class="link" href="item1.html"><img width="700" height="700"
-                                                    src="/assets/content/freelancer/images//home_freelancer_portfolio1.jpg"
+                                            <a class="link"
+                                                href="{{ post.url }}"><img
+                                                    width="700" height="700"
+                                                    src="{{ site.baseurl }}/assets/content/freelancer/images/home_freelancer_portfolio1.jpg"
                                                     class="scale-with-grid wp-post-image"
                                                     alt="home_freelancer_portfolio1" itemprop="image" />
                                             </a>
                                         </div>
                                     </div>
                                 </li>
-                                <li class="portfolio-item isotope-item  has-thumbnail">
-                                    <div class="masonry-hover-wrapper">
-                                        <div class="hover-desc bg-light">
-                                            <div class="desc-inner">
-                                                <h3 class="entry-title" itemprop="headline"><a class="link"
-                                                        href="item5.html">Sed lacus odio viverra fusce</a></h3>
-                                                <div class="desc-wrappper">
-                                                    Cum sociis natoque penatibus et magnis dis parturient montes,
-                                                    nascetur ridiculus mus. Fusce fringilla mauris. Donec nonummy,
-                                                    tellus consectetuer massa.
-                                                </div>
-                                            </div>
-                                            <div class="links-wrappper clearfix">
-                                                <a class="zoom" href="/assets/content/freelancer/images//home_freelancer_portfolio2.jpg"
-                                                    rel="prettyphoto"><i class="icon-search"></i></a><a class="link"
-                                                    href="item5.html"><i class="icon-link"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="image-wrapper scale-with-grid">
-                                            <a class="link" href="item5.html"><img width="700" height="700"
-                                                    src="/assets/content/freelancer/images//home_freelancer_portfolio2.jpg"
-                                                    class="scale-with-grid wp-post-image"
-                                                    alt="home_freelancer_portfolio2" itemprop="image" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="portfolio-item isotope-item  has-thumbnail">
-                                    <div class="masonry-hover-wrapper">
-                                        <div class="hover-desc bg-light">
-                                            <div class="desc-inner">
-                                                <h3 class="entry-title" itemprop="headline"><a class="link"
-                                                        href="item3.html">Proin tincidunt rutrum nullam</a></h3>
-                                                <div class="desc-wrappper">
-                                                    Maecenas scelerisque lorem pretium convallis. Cras dolor sit amet,
-                                                    purus. Aenean aliquet, lacus nibh, interdum adipiscing elit. Proin
-                                                    porttitor sem.
-                                                </div>
-                                            </div>
-                                            <div class="links-wrappper clearfix">
-                                                <a class="zoom" href="/assets/content/freelancer/images//home_freelancer_portfolio3.jpg"
-                                                    rel="prettyphoto"><i class="icon-search"></i></a><a class="link"
-                                                    href="item3.html"><i class="icon-link"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="image-wrapper scale-with-grid">
-                                            <a class="link" href="item3.html"><img width="700" height="700"
-                                                    src="/assets/content/freelancer/images//home_freelancer_portfolio3.jpg"
-                                                    class="scale-with-grid wp-post-image"
-                                                    alt="home_freelancer_portfolio3" itemprop="image" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="portfolio-item isotope-item  has-thumbnail">
-                                    <div class="masonry-hover-wrapper">
-                                        <div class="hover-desc bg-light">
-                                            <div class="desc-inner">
-                                                <h3 class="entry-title" itemprop="headline"><a class="link"
-                                                        href="item4.html">Proin ultricies maximus metus</a></h3>
-                                                <div class="desc-wrappper">
-                                                    Curabitur eu libero. Cras rhoncus at, posuere metus. Morbi dui quis
-                                                    venenatis lorem pretium sit amet ipsum. Duis ante pellentesque.
-                                                </div>
-                                            </div>
-                                            <div class="links-wrappper clearfix">
-                                                <a class="zoom" href="/assets/content/freelancer/images//home_freelancer_portfolio4.jpg"
-                                                    rel="prettyphoto"><i class="icon-search"></i></a><a class="link"
-                                                    href="item4.html"><i class="icon-link"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="image-wrapper scale-with-grid">
-                                            <a class="link" href="item4.html"><img width="700" height="700"
-                                                    src="/assets/content/freelancer/images//home_freelancer_portfolio4.jpg"
-                                                    class="scale-with-grid wp-post-image"
-                                                    alt="home_freelancer_portfolio4" itemprop="image" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="portfolio-item isotope-item  has-thumbnail">
-                                    <div class="masonry-hover-wrapper">
-                                        <div class="hover-desc bg-light">
-                                            <div class="desc-inner">
-                                                <h3 class="entry-title" itemprop="headline"><a class="link"
-                                                        href="item6.html">Vivamus in finibus nibh metus</a></h3>
-                                                <div class="desc-wrappper">
-                                                    Cras nec odio nec libero. Aliquam ultricies vitae, sollicitudin leo
-                                                    elit est, vel neque dui, accumsan at, velit. Suspendisse ut.
-                                                </div>
-                                            </div>
-                                            <div class="links-wrappper clearfix">
-                                                <a class="zoom" href="/assets/content/freelancer/images//home_freelancer_portfolio5.jpg"
-                                                    rel="prettyphoto"><i class="icon-search"></i></a><a class="link"
-                                                    href="item6.html"><i class="icon-link"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="image-wrapper scale-with-grid">
-                                            <a class="link" href="item6.html"><img width="700" height="700"
-                                                    src="/assets/content/freelancer/images//home_freelancer_portfolio5.jpg"
-                                                    class="scale-with-grid wp-post-image"
-                                                    alt="home_freelancer_portfolio5" itemprop="image" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="portfolio-item isotope-item  has-thumbnail">
-                                    <div class="masonry-hover-wrapper">
-                                        <div class="hover-desc bg-light">
-                                            <div class="desc-inner">
-                                                <h3 class="entry-title" itemprop="headline"><a class="link"
-                                                        href="item2.html">Nulla at pharetra odio nullam</a></h3>
-                                                <div class="desc-wrappper">
-                                                    Lorem ipsum dolor sit amet dolor. Pellentesque nunc. Aliquam
-                                                    adipiscing elit. Sed bibendum. In sodales felis, vestibulum ac,
-                                                    varius quis.
-                                                </div>
-                                            </div>
-                                            <div class="links-wrappper clearfix">
-                                                <a class="zoom" href="/assets/content/freelancer/images//home_freelancer_portfolio6.jpg"
-                                                    rel="prettyphoto"><i class="icon-search"></i></a><a class="link"
-                                                    href="item2.html"><i class="icon-link"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="image-wrapper scale-with-grid">
-                                            <a class="link" href="item2.html"><img width="700" height="700"
-                                                    src="/assets/content/freelancer/images//home_freelancer_portfolio6.jpg"
-                                                    class="scale-with-grid wp-post-image"
-                                                    alt="home_freelancer_portfolio6" itemprop="image" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                </li>
+                                {% endfor %}
                             </ul>
                         </div>
                     </div>

@@ -7,74 +7,14 @@ layout: default
         <div class="sections_group">
             <div class="entry-content">
                 <div class="section mcb-section" style="padding-top:160px; padding-bottom:80px; ">
-                    <div class="section_wrapper mcb-section-inner">
-                        <div class="wrap mcb-wrap one  valign-top clearfix">
-                            <div class="mcb-wrap-inner">
-                                <div class="column mcb-column one column_column">
-                                    <div class="column_attr">
-                                        {% for info in site.data.about %}
-                                        <h2>Contact me</h2>
-                                        <hr class="no_line" style="margin: 0 auto 50px;" />
-                                        <h2>{{info.line1}}<span
-                                                class="themecolor">{{info.line2}}</span> {{info.line3}}</h2>
-                                        {% endfor %}
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    {% include about.md %}
                 </div>
                 <div class="section mcb-section" style="padding-top:0px; padding-bottom:0px; ">
                     <div class="section_wrapper mcb-section-inner">
                         <div class="wrap mcb-wrap one  valign-top clearfix">
                             <div class="mcb-wrap-inner">
-                                <div class="column mcb-column one-third column_column">
-                                    <div class="column_attr">
-                                        <h4>E-mail</h4>
-                                        <p class="big">
-                                            <a href="#">noreply@envato.com</a>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="column mcb-column one-third column_column">
-                                    <div class="column_attr">
-                                        <h4>Phone</h4>
-                                        <p class="big">
-                                            +61 (0) 3 8376 6284
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="column mcb-column one-third column_column">
-                                    <div class="column_attr">
-                                        <h4>Follow me</h4>
-                                        <p style="line-height: 30px; font-size: 30px;">
-                                            <a href="#"><i class="icon-facebook-circled"></i></a><a href="#"><i
-                                                    class="icon-gplus-circled"></i></a><a href="#"><i
-                                                    class="icon-twitter-circled"></i></a><a href="#"><i
-                                                    class="icon-pinterest-circled"></i></a>
-                                        </p>
-                                    </div>
-                                </div>
                                 <div class="column mcb-column one column_divider ">
                                     <hr class="no_line" />
-                                </div>
-                                <div class="column mcb-column one-third column_column">
-                                    <div class="column_attr">
-                                        <h4>Address</h4>
-                                        <p class="big">
-                                            Envato
-                                            <br> Level 13, 2 Elizabeth
-                                            <br> Victoria 3000 Australia
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="column mcb-column one-third column_column">
-                                    <div class="column_attr">
-                                        <h4>VAT No.</h4>
-                                        <p class="big">
-                                            123123123
-                                        </p>
-                                    </div>
                                 </div>
                                 <div class="column mcb-column one column_column">
                                     <div class="column_attr">

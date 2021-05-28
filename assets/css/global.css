@@ -2123,7 +2123,6 @@ a:hover.tp-button.lightgrey {
 	text-align: center;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
-	background-image: url(../images/stripes/stripes_10_w.png)
 }
 .dropcap_circle {
 	-webkit-border-radius: 100%;
@@ -2150,7 +2149,6 @@ a:hover.tp-button.lightgrey {
 	padding: 1px 7px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
-	background-image: url(../images/stripes/stripes_10_w.png)
 }
 .highlight.highlight_image {
 	padding: 0 2px 7px
@@ -2178,7 +2176,6 @@ a:hover.tp-button.lightgrey {
 	bottom: 110%;
 	z-index: 98;
 	margin-left: -85px;
-	background-image: url(../images/stripes/stripes_10_w.png)
 }
 .tooltip.tooltip-img:after {
 	display: none
@@ -2197,7 +2194,6 @@ a:hover.tp-button.lightgrey {
 	bottom: 110%;
 	z-index: 98;
 	margin-left: -165px;
-	background-image: url(../images/stripes/stripes_10_w.png)
 }
 .tooltip.tooltip-img:hover .tooltip-content, .tooltip.tooltip-img.hover .tooltip-content {
 	display: block
@@ -3802,7 +3798,6 @@ body.table-hover:not(.woocommerce-page) table tr:hover td {
 	float: left;
 	-webkit-border-radius: 100%;
 	border-radius: 100%;
-	background-image: url(../images/stripes/stripes_3_b.png);
 	-webkit-box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, .08);
 	box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, .08)
 }
@@ -3817,7 +3812,6 @@ body.table-hover:not(.woocommerce-page) table tr:hover td {
 .list_item.lists_1 .list_left {
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
-	background-image: url(../images/stripes/stripes_3_b.png);
 	-webkit-box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, .1);
 	box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, .1)
 }
@@ -4932,7 +4926,6 @@ body.table-hover:not(.woocommerce-page) table tr:hover td {
 	float: left;
 	padding: 10px 15px;
 	background-color: #f8f8f8;
-	background-image: url(../images/stripes/stripes_3_b.png);
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box
@@ -5462,7 +5455,7 @@ body.table-hover:not(.woocommerce-page) table tr:hover td {
 	margin-bottom: 15px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
-	background-image: url(../images/stripes/stripes_10_w.png)
+
 }
 .trailer_box:hover .desc .subtitle {
 	bottom: 20px
@@ -5803,7 +5796,6 @@ a.icon_bar {
 	border-style: solid;
 	position: relative;
 	background-color: #fff;
-	background-image: url(../images/stripes/stripes_3_b.png);
 	-webkit-box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, .08);
 	box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, .08)
 }
@@ -6015,7 +6007,6 @@ a.icon_bar_dribbble span.b {
 	padding: 5px 11px;
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
-	background-image: url(../images/stripes/stripes_3_b.png);
 	background-color: #f8f8f8
 }
 .opening_hours .opening_hours_wrapper li span {
