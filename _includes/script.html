@@ -1,10 +1,9 @@
-<script src="assets/js/jquery-2.1.4.min.js"></script>
-
-<script src="assets/js/mfn.menu.js"></script>
-<script src="assets/js/jquery.plugins.js"></script>
-<script src="assets/js/jquery.jplayer.min.js"></script>
-<script src="assets/js/animations/animations.js"></script>
-<script src="assets/js/scripts.js"></script>
+<script src="{{ site.baseurl }}/assets/js/jquery-2.1.4.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/mfn.menu.js"></script>
+<script src="{{ site.baseurl }}/assets/js/jquery.plugins.js"></script>
+<script src="{{ site.baseurl }}/assets/js/jquery.jplayer.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/animations/animations.js"></script>
+<script src="{{ site.baseurl }}/assets/js/scripts.js"></script>
 
 <script id="mfn-dnmc-retina-js">
     jQuery(window).load(function() {
@@ -13,15 +12,15 @@
             var retinaEl = jQuery("#logo img.logo-main");
             var retinaLogoW = retinaEl.width();
             var retinaLogoH = retinaEl.height();
-            retinaEl.attr("src", "assets/content/freelancer/images/retina-freelancer.png").width(retinaLogoW).height(retinaLogoH);
+            retinaEl.attr("src", "{{ site.baseurl }}/assets/content/freelancer/images/retina-freelancer.png").width(retinaLogoW).height(retinaLogoH);
             var stickyEl = jQuery("#logo img.logo-sticky");
             var stickyLogoW = stickyEl.width();
             var stickyLogoH = stickyEl.height();
-            stickyEl.attr("src", "assets/content/freelancer/images/retina-freelancer.png").width(stickyLogoW).height(stickyLogoH);
+            stickyEl.attr("src", "{{ site.baseurl }}/assets/content/freelancer/images/retina-freelancer.png").width(stickyLogoW).height(stickyLogoH);
             var mobileEl = jQuery("#logo img.logo-mobile");
             var mobileLogoW = mobileEl.width();
             var mobileLogoH = mobileEl.height();
-            mobileEl.attr("src", "assets/content/freelancer/images/retina-freelancer.png").width(mobileLogoW).height(mobileLogoH);
+            mobileEl.attr("src", "{{ site.baseurl }}/assets/content/freelancer/images/retina-freelancer.png").width(mobileLogoW).height(mobileLogoH);
         }
     });
 </script>

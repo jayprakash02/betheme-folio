@@ -25,7 +25,7 @@ layout: default
                                         <h2 style="font-weight: 400;">More info and contact here</h2>
                                         <hr class="no_line" style="margin: 0 auto 50px;" />
                                         <a class="button  button_large button_js"
-                                            href="assets/content/freelancer/hire-me.html"><span class="button_label">Say
+                                            href="/hire-me"><span class="button_label">Say
                                                 hello!</span></a>
                                     </div>
                                 </div>
@@ -40,7 +40,7 @@ layout: default
                                 <div class="column mcb-column one column_column">
                                     <div class="column_attr">
                                         <div
-                                            style="background: url(assets/content/freelancer/images/home_freelancer_sep.png) no-repeat center center; height: 36px;">
+                                            style="background: url({{ site.baseurl }}/assets/content/freelancer/images/home_freelancer_sep.png) no-repeat center center; height: 36px;">
                                         </div>
                                     </div>
                                 </div>
@@ -53,143 +53,37 @@ layout: default
                                     <div class="column_filters">
                                         <div class="portfolio_wrapper isotope_wrapper ">
                                             <ul class="portfolio_group lm_wrapper isotope col-2 masonry-hover">
+                                                {% for post in site.posts %}
                                                 <li class="portfolio-item isotope-item  has-thumbnail">
                                                     <div class="masonry-hover-wrapper">
                                                         <div class="hover-desc bg-light">
                                                             <div class="desc-inner">
                                                                 <h3 class="entry-title" itemprop="headline"><a
                                                                         class="link"
-                                                                        href="assets/content/freelancer/item1.html">Curabitur
-                                                                        viverra enim metus</a></h3>
-                                                                <div class="desc-wrappper">
-                                                                    Suspendisse eu lectus. Nunc tristique purus.
-                                                                    Praesent at orci massa, nonummy consequat ligula
-                                                                    eget leo elit arcu, eget odio. Donec.
-                                                                </div>
+                                                                        href="{{ site.baseurl }}/assets/content/freelancer/item1.html">{{ post.title }}</a></h3>
+                                                                <div class="desc-wrappper">{{ post.description }}</div>
                                                             </div>
                                                             <div class="links-wrappper clearfix">
                                                                 <a class="zoom"
-                                                                    href="assets/content/freelancer/images/home_freelancer_portfolio1.jpg"
+                                                                    href="{{ site.baseurl }}/assets/content/freelancer/images/home_freelancer_portfolio1.jpg"
                                                                     rel="prettyphoto"><i class="icon-search"></i></a><a
                                                                     class="link"
-                                                                    href="assets/content/freelancer/item1.html"><i
+                                                                    href="{{ post.url }}"><i
                                                                         class="icon-link"></i></a>
                                                             </div>
                                                         </div>
                                                         <div class="image-wrapper scale-with-grid">
                                                             <a class="link"
-                                                                href="assets/content/freelancer/item1.html"><img
+                                                                href="{{ post.url }}"><img
                                                                     width="700" height="700"
-                                                                    src="assets/content/freelancer/images/home_freelancer_portfolio1.jpg"
+                                                                    src="{{ site.baseurl }}/assets/content/freelancer/images/home_freelancer_portfolio1.jpg"
                                                                     class="scale-with-grid wp-post-image"
                                                                     alt="home_freelancer_portfolio1" itemprop="image" />
                                                             </a>
                                                         </div>
                                                     </div>
                                                 </li>
-                                                <li class="portfolio-item isotope-item  has-thumbnail">
-                                                    <div class="masonry-hover-wrapper">
-                                                        <div class="hover-desc bg-light">
-                                                            <div class="desc-inner">
-                                                                <h3 class="entry-title" itemprop="headline"><a
-                                                                        class="link"
-                                                                        href="assets/content/freelancer/item5.html">Sed
-                                                                        lacus odio viverra fusce</a></h3>
-                                                                <div class="desc-wrappper">
-                                                                    Cum sociis natoque penatibus et magnis dis
-                                                                    parturient montes, nascetur ridiculus mus. Fusce
-                                                                    fringilla mauris. Donec nonummy, tellus consectetuer
-                                                                    massa.
-                                                                </div>
-                                                            </div>
-                                                            <div class="links-wrappper clearfix">
-                                                                <a class="zoom"
-                                                                    href="assets/content/freelancer/images/home_freelancer_portfolio2.jpg"
-                                                                    rel="prettyphoto"><i class="icon-search"></i></a><a
-                                                                    class="link"
-                                                                    href="assets/content/freelancer/item5.html"><i
-                                                                        class="icon-link"></i></a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="image-wrapper scale-with-grid">
-                                                            <a class="link"
-                                                                href="assets/content/freelancer/item5.html"><img
-                                                                    width="700" height="700"
-                                                                    src="assets/content/freelancer/images/home_freelancer_portfolio2.jpg"
-                                                                    class="scale-with-grid wp-post-image"
-                                                                    alt="home_freelancer_portfolio2" itemprop="image" />
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li class="portfolio-item isotope-item  has-thumbnail">
-                                                    <div class="masonry-hover-wrapper">
-                                                        <div class="hover-desc bg-light">
-                                                            <div class="desc-inner">
-                                                                <h3 class="entry-title" itemprop="headline"><a
-                                                                        class="link"
-                                                                        href="assets/content/freelancer/item3.html">Proin
-                                                                        tincidunt rutrum nullam</a></h3>
-                                                                <div class="desc-wrappper">
-                                                                    Maecenas scelerisque lorem pretium convallis. Cras
-                                                                    dolor sit amet, purus. Aenean aliquet, lacus nibh,
-                                                                    interdum adipiscing elit. Proin porttitor sem.
-                                                                </div>
-                                                            </div>
-                                                            <div class="links-wrappper clearfix">
-                                                                <a class="zoom"
-                                                                    href="assets/content/freelancer/images/home_freelancer_portfolio3.jpg"
-                                                                    rel="prettyphoto"><i class="icon-search"></i></a><a
-                                                                    class="link"
-                                                                    href="assets/content/freelancer/item3.html"><i
-                                                                        class="icon-link"></i></a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="image-wrapper scale-with-grid">
-                                                            <a class="link"
-                                                                href="assets/content/freelancer/item3.html"><img
-                                                                    width="700" height="700"
-                                                                    src="assets/content/freelancer/images/home_freelancer_portfolio3.jpg"
-                                                                    class="scale-with-grid wp-post-image"
-                                                                    alt="home_freelancer_portfolio3" itemprop="image" />
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li class="portfolio-item isotope-item  has-thumbnail">
-                                                    <div class="masonry-hover-wrapper">
-                                                        <div class="hover-desc bg-light">
-                                                            <div class="desc-inner">
-                                                                <h3 class="entry-title" itemprop="headline"><a
-                                                                        class="link"
-                                                                        href="assets/content/freelancer/item4.html">Proin
-                                                                        ultricies maximus metus</a></h3>
-                                                                <div class="desc-wrappper">
-                                                                    Curabitur eu libero. Cras rhoncus at, posuere metus.
-                                                                    Morbi dui quis venenatis lorem pretium sit amet
-                                                                    ipsum. Duis ante pellentesque.
-                                                                </div>
-                                                            </div>
-                                                            <div class="links-wrappper clearfix">
-                                                                <a class="zoom"
-                                                                    href="assets/content/freelancer/images/home_freelancer_portfolio4.jpg"
-                                                                    rel="prettyphoto"><i class="icon-search"></i></a><a
-                                                                    class="link"
-                                                                    href="assets/content/freelancer/item4.html"><i
-                                                                        class="icon-link"></i></a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="image-wrapper scale-with-grid">
-                                                            <a class="link"
-                                                                href="assets/content/freelancer/item4.html"><img
-                                                                    width="700" height="700"
-                                                                    src="assets/content/freelancer/images/home_freelancer_portfolio4.jpg"
-                                                                    class="scale-with-grid wp-post-image"
-                                                                    alt="home_freelancer_portfolio4" itemprop="image" />
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </li>
+                                                {% endfor %}
                                             </ul>
                                         </div>
                                     </div>
@@ -197,7 +91,7 @@ layout: default
                                 <div class="column mcb-column one column_column">
                                     <div class="column_attr align_right">
                                         <a class="button  button_large button_js"
-                                            href="assets/content/freelancer/work.html"><span class="button_label">See
+                                            href="{{ site.baseurl }}/assets/content/freelancer/work.html"><span class="button_label">See
                                                 all realizations</span></a>
                                     </div>
                                 </div>
